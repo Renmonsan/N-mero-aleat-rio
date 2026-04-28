@@ -2,6 +2,7 @@
 Algoritmo em python que desafia o usuário acertar um número aleatório entre 1 à 10.
 
 #Adivinhe o número aleatório com while
+```bash
 import random
 x = 0
 num = random.randint(1,10)
@@ -17,3 +18,4 @@ while sugestao != num:
     sugestao = int(input("Tente novamente: "))
 
 print(f"Você acertou em {x} tentativas, parabéns!😀")
+```
