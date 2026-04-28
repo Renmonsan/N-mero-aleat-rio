@@ -1,7 +1,7 @@
 # N-mero-aleat-rio
 Algoritmo em python que desafia o usuário acertar um número aleatório entre 1 à 10.
 
-#Adivinhe o número aleatório com while
+# Adivinhe o número aleatório com while
 ```bash
 import random
 x = 0
