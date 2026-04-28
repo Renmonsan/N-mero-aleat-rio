@@ -1,11 +1,11 @@
 # Random number
-Algoritmo em python que desafia o usuário acertar um número aleatório entre 1 à 10.
+Algoritmo em python que desafia o usuário acertar um número aleatório entre 1 à 100.
 
 # Adivinhe o número aleatório usando a função while
 ```bash
 import random
 x = 0
-num = random.randint(1,10)
+num = random.randint(1,100)
 sugestao = int(input("Tenta adivinhar um número de 1 à 20000: "))
 
 while sugestao != num:
